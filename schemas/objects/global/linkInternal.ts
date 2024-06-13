@@ -22,6 +22,23 @@ export default defineField({
             validation: (Rule) => Rule.required(),
             to: PAGE_REFERENCES,
         },
+        {
+            name: 'underline',
+            title: 'Onderlijnt?',
+            type: 'boolean',
+            initialValue: false
+        },
+        {
+            name: 'icon',
+            title: 'Icoon',
+            type: 'boolean',
+        },
+        {
+            name: 'iconTrailing',
+            title: 'Icoon achterafkomend?',
+            type: 'boolean',
+            initialValue: false
+        }
     ],
     preview: {
         select: {

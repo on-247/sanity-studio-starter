@@ -42,5 +42,6 @@ export default defineField({
         },
         {type: 'module.accordion'},
         {type: 'module.article'},
+        {type: 'module.form'},
     ]
 })

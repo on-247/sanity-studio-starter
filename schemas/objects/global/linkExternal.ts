@@ -25,6 +25,23 @@ export default defineField({
             type: 'boolean',
             initialValue: true,
         },
+        {
+            name: 'underline',
+            title: 'Onderlijnt?',
+            type: 'boolean',
+            initialValue: false
+        },
+        {
+            name: 'icon',
+            title: 'Icoon',
+            type: 'boolean',
+        },
+        {
+            name: 'iconTrailing',
+            title: 'Icoon achterafkomend?',
+            type: 'boolean',
+            initialValue: false
+        }
     ],
     preview: {
         select: {

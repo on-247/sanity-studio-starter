@@ -26,7 +26,6 @@ import footerAbout from './objects/global/footerAbout'
 import formCheckbox from './objects/form/checkbox'
 import formInput from './objects/form/input'
 import formRadio from './objects/form/radio'
-import formStep from './objects/form/step'
 import formValue from './objects/form/fragment/value'
 import linkAnchor from './objects/global/linkAnchor'
 import linkExternal from './objects/global/linkExternal'
@@ -36,6 +35,7 @@ import links from './objects/global/links'
 import menu from './objects/global/menu'
 import moduleAccordion from './objects/module/accordion'
 import moduleArticle from './objects/module/article'
+import moduleForm from './objects/module/form'
 import pageSection from './objects/global/pageSection'
 import seo from './objects/seo/seo'
 import seoHome from './objects/seo/home'
@@ -52,7 +52,6 @@ const objects = [
     formCheckbox,
     formInput,
     formRadio,
-    formStep,
     formValue,
     linkAnchor,
     linkExternal,
@@ -63,6 +62,7 @@ const objects = [
     pageSection,
     moduleAccordion,
     moduleArticle,
+    moduleForm,
     seo,
     seoHome,
     seoPage,

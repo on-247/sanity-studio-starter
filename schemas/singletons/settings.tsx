@@ -11,7 +11,6 @@ export default defineType({
     groups: [
         {name: 'navigation', title: 'Navigatie', default: true},
         {name: 'notFoundPage', title: '404 page'},
-        // {name: 'footer', title: 'Footer'},
         {name: 'seo', title: 'SEO'},
     ],
     fields: [
@@ -32,12 +31,6 @@ export default defineType({
                 title: 'Menu',
                 type: 'menu',
             }]
-        },
-        {
-            group: 'navigation',
-            name: 'callButton',
-            title: 'Belknop',
-            type: 'linkExternal'
         },
         // 404 page
         {

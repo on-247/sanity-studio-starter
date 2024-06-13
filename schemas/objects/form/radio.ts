@@ -21,6 +21,11 @@ export default defineField({
             title: 'Waarde paren',
             type: 'array',
             of: [{type: 'form.fragment.value'}],
+        },
+        {
+            name: 'multiple',
+            title: 'Meerdere waarden toegestaand?',
+            type: 'boolean'
         }
     ]
 })

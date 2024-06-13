@@ -27,6 +27,23 @@ export default defineField({
             title: 'Haak ID',
             type: 'string',
         },
+        {
+            name: 'underline',
+            title: 'Onderlijnt?',
+            type: 'boolean',
+            initialValue: false
+        },
+        {
+            name: 'icon',
+            title: 'Icoon',
+            type: 'boolean',
+        },
+        {
+            name: 'iconTrailing',
+            title: 'Icoon achterafkomend?',
+            type: 'boolean',
+            initialValue: false
+        }
     ],
     preview: {
         select: {
